@@ -1,0 +1,71 @@
+body{
+    background-color: #F0F0F0;
+    font-family: sans-serif;
+}
+
+.formulario{
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card{
+    box-shadow: 1px 1px 5px #CCC;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.card-group{
+    margin-bottom: 15px;
+}
+
+.card-top{
+    text-align: center;
+}
+
+.imglogin{
+    border-radius: 50px;
+    width: 100px;
+    box-shadow: 0px 0px 5px #CCC;
+}
+
+.title{
+    color: #6A5ACD;
+}
+
+.card-group > label{
+    width: 100%;
+    color: rgb(75, 75, 75);
+    display: block;
+}
+
+.card-group > input{
+    border-radius: 10px;
+    outline: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.card-group > button{
+    background-color: #6A5ACD;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    border-radius: 50px;
+    border: 0px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: #836FFF;
+}
+
+.btn2{
+    padding: 20px;
+}
+
+.btn2 button:hover{
+    background-color: #836FFF;
+}

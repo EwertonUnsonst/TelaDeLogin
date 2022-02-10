@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Controle de Acesso</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <form class="formulario" action="PHP/logar.php" method="POST">
+            <div class="card">
+                <div class="card-top">
+                    <img class="imglogin" src="IMG/Login fundo2.jpg" alt="">
+                    <h2 class="title">Faça o Login</h2>
+                </div>
+
+                <div class="card-group">
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <div class="card-group">
+                    <label>Senha</label>
+                    <input type="password" name="password" placeholder="Digite sua senha" required>
+                </div>
+
+                <div class="card-group">
+                    <label><input type="checkbox">Lembre-me</label>
+                </div>
+
+                <div class="card-group btn">
+                    <button type="submit">Acessar</button>
+                </div>
+
+                <div class="card-group">
+                    <label>Ainda não possui cadastro? <a href="Cadastro de usuario.html">Criar usuário</a></label>
+                </div>
+            </div>
+    </body>
+</html>
